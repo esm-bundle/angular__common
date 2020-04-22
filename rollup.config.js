@@ -32,7 +32,7 @@ function createConfig({ format, target, minify, resolvedAngularCore }) {
       minify &&
         terser({
           output: {
-            comments: /@angular\/core@/,
+            comments: /@angular\/common@/,
           },
         }),
     ],
@@ -63,13 +63,11 @@ export default () => {
       format: "module",
       target: "es5",
       minify: true,
-      resolvedAngularCore: false,
     }),
     createConfig({
       format: "module",
       target: "es5",
       minify: false,
-      resolvedAngularCore: false,
     }),
     createConfig({
       format: "module",
@@ -87,13 +85,11 @@ export default () => {
       format: "module",
       target: "es2015",
       minify: true,
-      resolvedAngularCore: false,
     }),
     createConfig({
       format: "module",
       target: "es2015",
       minify: false,
-      resolvedAngularCore: false,
     }),
     createConfig({ format: "system", target: "es5", minify: true }),
     createConfig({ format: "system", target: "es5", minify: false }),
