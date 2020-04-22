@@ -7,10 +7,10 @@
   resolved "https://registry.yarnpkg.com/@angular/common/-/common-9.1.3.tgz#66eee1b5ec392469d2d5eca023de200233cd5ddb"
   integrity sha512-OGrd/x+WoceskeJWZI3ur+KqVoBHn2kmbg57RyJ8Ng/BkdDVYiXzQ/UvvX1WYGH/YzmiiVdlnVq55xkHkzGaXw==
 
-"@angular/core@npm:@esm-bundle/angular__core@9.1.3-fix.0":
-  version "9.1.3-fix.0"
-  resolved "https://registry.yarnpkg.com/@esm-bundle/angular__core/-/angular__core-9.1.3-fix.0.tgz#c379faca64b619b3f2279cdab6df439ef8c45a48"
-  integrity sha512-/5/RJoydgVwe7v7Fpz7NNhUFNB5oPDfzRv1rtz07oG3A3STGEm6Q9rncTGa6WbAM9lwnaYdx9FrtkhIpB1LGRg==
+"@angular/core@npm:@esm-bundle/angular__core@9.1.3":
+  version "9.1.3"
+  resolved "https://registry.yarnpkg.com/@esm-bundle/angular__core/-/angular__core-9.1.3.tgz#b2eb1c7369d5476455278ab94aea53534ee1edd7"
+  integrity sha512-WqPLRtkPQGvmcku+3NsTSZoohdKGrgl7h7NzAJbUpmkbkOiB2Ha4yvwo1UfPHZEQbJuX+cj/yAihCLuRS4B2bg==
 
 "@babel/code-frame@^7.0.0", "@babel/code-frame@^7.5.5", "@babel/code-frame@^7.8.3":
   version "7.8.3"
