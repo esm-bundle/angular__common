@@ -1,9 +1,4 @@
 {
   "extends": ["config:base"],
-  "packageRules": [
-    {
-      "packageNames": ["@angular/core"],
-      "allowedVersions": "*"
-    }
-  ]
+  "ignoreDeps": "@angular/core"
 }
