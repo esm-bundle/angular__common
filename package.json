@@ -40,6 +40,6 @@
     "@angular/common": "9.1.11",
     "@angular/core": "npm:@esm-bundle/angular__core@9.1.3-fix.0",
     "esm-bundle-scripts": "1.2.0",
-    "rxjs": "npm:@esm-bundle/rxjs@6.5.5-fix.1"
+    "rxjs": "npm:@esm-bundle/rxjs@6.6.0"
   }
 }
