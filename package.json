@@ -1,6 +1,6 @@
 {
   "name": "@esm-bundle/angular__common",
-  "version": "11.2.0",
+  "version": "11.0.0",
   "description": "Repo to test esm-bundle's automatic publishing",
   "exports": {
     ".": "./es2015/ivy/angular-common.js"
@@ -37,10 +37,10 @@
   },
   "homepage": "https://github.com/esm-bundle/angular__common#readme",
   "devDependencies": {
-    "@angular/common": "11.2.0",
-    "@angular/compiler": "11.2.0",
-    "@angular/compiler-cli": "11.2.0",
-    "@angular/core": "^11.1.1",
+    "@angular/common": "11.0.0",
+    "@angular/compiler": "11.0.0",
+    "@angular/compiler-cli": "11.0.0",
+    "@angular/core": "11.0.0",
     "concurrently": "5.3.0",
     "esm-bundle-scripts": "1.2.0",
     "husky": "5.0.9",
