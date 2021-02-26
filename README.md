@@ -1,6 +1,6 @@
 # angular-common
 
-[![npm version](https://img.shields.io/npm/v/@esm-bundle/angular__common.svg?style=flat)](https://www.npmjs.com/package/@esm-bundle/angular__common) [![build status](https://travis-ci.com/esm-bundle/angular__common.svg?branch=master)](https://travis-ci.com/esm-bundle/angular__common) [![](https://data.jsdelivr.com/v1/package/npm/@esm-bundle/angular__common/badge)](https://www.jsdelivr.com/package/npm/@esm-bundle/angular__common)
+[![npm version](https://img.shields.io/npm/v/@esm-bundle/angular__common.svg?style=flat)](https://www.npmjs.com/package/@esm-bundle/angular__common) [![](https://data.jsdelivr.com/v1/package/npm/@esm-bundle/angular__common/badge)](https://www.jsdelivr.com/package/npm/@esm-bundle/angular__common)
 
 ["What is this" blog post](https://medium.com/@joeldenning/an-esm-bundle-for-any-npm-package-5f850db0e04d)
 
