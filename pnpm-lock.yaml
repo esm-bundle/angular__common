@@ -1,7 +1,7 @@
 devDependencies:
-  '@angular/common': 11.2.4_@angular+core@11.1.1+rxjs@6.6.6
-  '@angular/compiler': 11.2.4
-  '@angular/compiler-cli': 11.2.4_fe82edb5e3b9e244d946ae16e8eba6ec
+  '@angular/common': 11.2.5_@angular+core@11.1.1+rxjs@6.6.6
+  '@angular/compiler': 11.2.5
+  '@angular/compiler-cli': 11.2.5_f9e3d0c3124ef31bb2daee53f603608b
   '@angular/core': 11.1.1_rxjs@6.6.6
   concurrently: 6.0.0
   esm-bundle-scripts: 1.2.0
@@ -21,20 +21,20 @@ devDependencies:
   typescript: 4.2.3
 lockfileVersion: 5.2
 packages:
-  /@angular/common/11.2.4_@angular+core@11.1.1+rxjs@6.6.6:
+  /@angular/common/11.2.5_@angular+core@11.1.1+rxjs@6.6.6:
     dependencies:
       '@angular/core': 11.1.1_rxjs@6.6.6
       rxjs: 6.6.6
       tslib: 2.1.0
     dev: true
     peerDependencies:
-      '@angular/core': 11.2.4
+      '@angular/core': 11.2.5
       rxjs: ^6.5.3
     resolution:
-      integrity: sha512-1Zf+ejJcfSFcnAhtyEjuBw7mqeT4wbfMT5xPzpgs2qRXOOi1Ag59NG6QLeNGcy55sjykUMP9xpWXx6dWXdD54g==
-  /@angular/compiler-cli/11.2.4_fe82edb5e3b9e244d946ae16e8eba6ec:
+      integrity: sha512-SFRnyYBjzcHSd9RAV+269CeShhUqMqdUpkZRwTqkr+weW7AmBLXNOz7gesEk7cP5/i2FA4UGSiI85FkSJ2HKow==
+  /@angular/compiler-cli/11.2.5_f9e3d0c3124ef31bb2daee53f603608b:
     dependencies:
-      '@angular/compiler': 11.2.4
+      '@angular/compiler': 11.2.5
       '@babel/core': 7.12.10
       '@babel/types': 7.12.12
       canonical-path: 1.0.0
@@ -56,16 +56,16 @@ packages:
       node: '>=10.0'
     hasBin: true
     peerDependencies:
-      '@angular/compiler': 11.2.4
+      '@angular/compiler': 11.2.5
       typescript: '>=4.0 <4.2'
     resolution:
-      integrity: sha512-4OJPX4vCgxHDOF3mBXrASi404mUdoGLBtsRch257Xse1RMRxklGlMiAgYAzLozv0UGJ2PLnsKhjUP2crADXmnQ==
-  /@angular/compiler/11.2.4:
+      integrity: sha512-pSKyLIV9kn6tRugMPXo9t3QXSMbHVGUGw7wEoRwRrsqJ+JbU10Ke+sMsPF8ewqpsX+sslzx5TqD+1thXhhkBsQ==
+  /@angular/compiler/11.2.5:
     dependencies:
       tslib: 2.1.0
     dev: true
     resolution:
-      integrity: sha512-2FXgkyJRWrULX3qyMhD6p16t/zAFCRI6+kHoRqfM5EzNKwPaUuSPIL8XAfr+xf0PbJ0Htkfb8jT1TtvctQW0Yw==
+      integrity: sha512-MrgZnTY6OPooDZw76wgj1ZM43IwwStsDfwuvYI8B7PR+QtPIwAkxi+spW78MHy3ltzsIQorC98pMiz7c7oTxDg==
   /@angular/core/11.1.1_rxjs@6.6.6:
     dependencies:
       rxjs: 6.6.6
@@ -7354,9 +7354,9 @@ packages:
     resolution:
       integrity: sha512-rVksvsnNCdJ/ohGc6xgPwyN8eheCxsiLM8mxuE/t/mOVqJewPuO1miLpTHQiRgTKCLexL4MeAFVagts7HmNZ2Q==
 specifiers:
-  '@angular/common': 11.2.4
-  '@angular/compiler': 11.2.4
-  '@angular/compiler-cli': 11.2.4
+  '@angular/common': 11.2.5
+  '@angular/compiler': 11.2.5
+  '@angular/compiler-cli': 11.2.5
   '@angular/core': ^11.1.1
   concurrently: 6.0.0
   esm-bundle-scripts: 1.2.0
