@@ -1,9 +1,9 @@
 lockfileVersion: 5.3
 
 specifiers:
-  '@angular/common': 11.2.11
-  '@angular/compiler': 11.2.11
-  '@angular/compiler-cli': 11.2.11
+  '@angular/common': 11.2.12
+  '@angular/compiler': 11.2.12
+  '@angular/compiler-cli': 11.2.12
   '@angular/core': ^11.1.1
   concurrently: 6.0.2
   esm-bundle-scripts: 1.2.0
@@ -23,9 +23,9 @@ specifiers:
   typescript: 4.2.4
 
 devDependencies:
-  '@angular/common': 11.2.11_@angular+core@11.1.1+rxjs@6.6.7
-  '@angular/compiler': 11.2.11
-  '@angular/compiler-cli': 11.2.11_49a47efaf408e4dffade990940c2e0dc
+  '@angular/common': 11.2.12_@angular+core@11.1.1+rxjs@6.6.7
+  '@angular/compiler': 11.2.12
+  '@angular/compiler-cli': 11.2.12_721e48f333a8425936c4c1ad960e4419
   '@angular/core': 11.1.1_rxjs@6.6.7
   concurrently: 6.0.2
   esm-bundle-scripts: 1.2.0
@@ -46,10 +46,10 @@ devDependencies:
 
 packages:
 
-  /@angular/common/11.2.11_@angular+core@11.1.1+rxjs@6.6.7:
-    resolution: {integrity: sha512-q2chMuaJxN1994Jm3ptWLIWx/yE0P4LCYAef7H10tYDXEJUWY9Tul+4YAnDeBjLY7om8/x3jUKChhfkuuWJing==}
+  /@angular/common/11.2.12_@angular+core@11.1.1+rxjs@6.6.7:
+    resolution: {integrity: sha512-PEg2K/gNm7xia4WJn9hDieJiPvaJtfBaI5RGriVuGhvss2rNg3yKjkt8q0+6CoN/PWJ1Yi6BRgdCAOqt25SiWA==}
     peerDependencies:
-      '@angular/core': 11.2.11
+      '@angular/core': 11.2.12
       rxjs: ^6.5.3
     dependencies:
       '@angular/core': 11.1.1_rxjs@6.6.7
@@ -57,15 +57,15 @@ packages:
       tslib: 2.1.0
     dev: true
 
-  /@angular/compiler-cli/11.2.11_49a47efaf408e4dffade990940c2e0dc:
-    resolution: {integrity: sha512-RaXldtUmtPFQGmiRM/W9EFQ6C0Wx+llQWrFl+Bo4tcyE9JQ1jaQKYPJStJrv9ljV9RFyiPM3O00kad6QYqUdfQ==}
+  /@angular/compiler-cli/11.2.12_721e48f333a8425936c4c1ad960e4419:
+    resolution: {integrity: sha512-hFQ1TBpxk2DVGPJLRfmrG+j46xtRAn5Z33/95a8b13P6kRcCI6WMY1tWYaepicww53UX6U7jndZf71UW6tXAmQ==}
     engines: {node: '>=10.0'}
     hasBin: true
     peerDependencies:
-      '@angular/compiler': 11.2.11
+      '@angular/compiler': 11.2.12
       typescript: '>=4.0 <4.2'
     dependencies:
-      '@angular/compiler': 11.2.11
+      '@angular/compiler': 11.2.12
       '@babel/core': 7.12.10
       '@babel/types': 7.12.12
       canonical-path: 1.0.0
@@ -86,8 +86,8 @@ packages:
       - supports-color
     dev: true
 
-  /@angular/compiler/11.2.11:
-    resolution: {integrity: sha512-8hJcT6oH/XGfE8DrCG9/PJR+FMsAAs2zT40c8mAuXa0qSn3Yrg/g1sHZ1eTwdU3iNIKzpoPj33MkJSoGN26NAQ==}
+  /@angular/compiler/11.2.12:
+    resolution: {integrity: sha512-//YCDIxNYWNKxIP9ynJAjEuUT3Q3g8XsQnG9vJKkXsBLiQ/WgtX0qQBSm9A6XvnJCUGXnGNgpqTLp8jhN5izqg==}
     dependencies:
       tslib: 2.1.0
     dev: true
