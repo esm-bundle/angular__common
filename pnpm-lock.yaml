@@ -19,14 +19,14 @@ specifiers:
   rimraf: 3.0.2
   rollup: 2.47.0
   rollup-plugin-terser: 7.0.2
-  rxjs: 7.0.0
+  rxjs: 7.0.1
   typescript: 4.2.4
 
 devDependencies:
-  '@angular/common': 11.2.13_@angular+core@11.1.1+rxjs@7.0.0
+  '@angular/common': 11.2.13_@angular+core@11.1.1+rxjs@7.0.1
   '@angular/compiler': 11.2.13
   '@angular/compiler-cli': 11.2.13_9cee8bdf79289f59da5edd9dc7ea4666
-  '@angular/core': 11.1.1_rxjs@7.0.0
+  '@angular/core': 11.1.1_rxjs@7.0.1
   concurrently: 6.1.0
   esm-bundle-scripts: 1.2.0
   husky: 6.0.0
@@ -41,19 +41,19 @@ devDependencies:
   rimraf: 3.0.2
   rollup: 2.47.0
   rollup-plugin-terser: 7.0.2_rollup@2.47.0
-  rxjs: 7.0.0
+  rxjs: 7.0.1
   typescript: 4.2.4
 
 packages:
 
-  /@angular/common/11.2.13_@angular+core@11.1.1+rxjs@7.0.0:
+  /@angular/common/11.2.13_@angular+core@11.1.1+rxjs@7.0.1:
     resolution: {integrity: sha512-96iZ4wlZado78yG6eY/ZmY6+H2X2hJi2XsK7iXKzc5h3oeILEkt+ulfBNkCNjMm8xPYBmLrSBueG96/T4/Bi5w==}
     peerDependencies:
       '@angular/core': 11.2.13
       rxjs: ^6.5.3
     dependencies:
-      '@angular/core': 11.1.1_rxjs@7.0.0
-      rxjs: 7.0.0
+      '@angular/core': 11.1.1_rxjs@7.0.1
+      rxjs: 7.0.1
       tslib: 2.1.0
     dev: true
 
@@ -92,13 +92,13 @@ packages:
       tslib: 2.1.0
     dev: true
 
-  /@angular/core/11.1.1_rxjs@7.0.0:
+  /@angular/core/11.1.1_rxjs@7.0.1:
     resolution: {integrity: sha512-yBBLekXeDviZ+KW3DmGeOK0CK/yQ9gCy2uHY47KUDI4UTRRLz0NI5nS9NdKwk5bpCPId6ZPNsJtHPBFXRhAnNA==}
     peerDependencies:
       rxjs: ^6.5.3
       zone.js: ^0.10.2 || ^0.11.3
     dependencies:
-      rxjs: 7.0.0
+      rxjs: 7.0.1
       tslib: 2.1.0
     dev: true
 
@@ -5762,8 +5762,8 @@ packages:
       tslib: 1.14.1
     dev: true
 
-  /rxjs/7.0.0:
-    resolution: {integrity: sha512-I1V/ArAtGJg4kmCfms8fULm0SwYgEsAf2d5WPCBGzTYm2qTjO3Tx4EDFaGjbOox8CeEsC69jQK22mnmfyA26sw==}
+  /rxjs/7.0.1:
+    resolution: {integrity: sha512-wViQ4Vgps1xJwqWIBooMNN44usCSthL7wCUl4qWqrVjhGfWyVyXcxlYzfDKkJKACQvZMTOft/jJ3RkbwK1j9QQ==}
     dependencies:
       tslib: 2.1.0
     dev: true
