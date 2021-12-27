@@ -19,14 +19,14 @@ specifiers:
   rimraf: 3.0.2
   rollup: 2.62.0
   rollup-plugin-terser: 7.0.2
-  rxjs: 7.4.0
+  rxjs: 7.5.0
   typescript: 4.5.4
 
 devDependencies:
-  '@angular/common': 12.2.15_@angular+core@11.1.1+rxjs@7.4.0
+  '@angular/common': 12.2.15_@angular+core@11.1.1+rxjs@7.5.0
   '@angular/compiler': 12.2.15
   '@angular/compiler-cli': 12.2.15_3ac00e3d2b521b60daaf104766886694
-  '@angular/core': 11.1.1_rxjs@7.4.0
+  '@angular/core': 11.1.1_rxjs@7.5.0
   concurrently: 6.5.1
   esm-bundle-scripts: 1.2.0
   husky: 7.0.4
@@ -41,20 +41,20 @@ devDependencies:
   rimraf: 3.0.2
   rollup: 2.62.0
   rollup-plugin-terser: 7.0.2_rollup@2.62.0
-  rxjs: 7.4.0
+  rxjs: 7.5.0
   typescript: 4.5.4
 
 packages:
 
-  /@angular/common/12.2.15_@angular+core@11.1.1+rxjs@7.4.0:
+  /@angular/common/12.2.15_@angular+core@11.1.1+rxjs@7.5.0:
     resolution: {integrity: sha512-NXNittHsp8G1rqa5q8ZeiearDlAaB2JYV7hNBn+pUqCy0Cg7V+bfcDv9hOwotRLsMqY+BJ7XYLcRwI3r68lb4g==}
     engines: {node: ^12.14.1 || >=14.0.0}
     peerDependencies:
       '@angular/core': 12.2.15
       rxjs: ^6.5.3 || ^7.0.0
     dependencies:
-      '@angular/core': 11.1.1_rxjs@7.4.0
-      rxjs: 7.4.0
+      '@angular/core': 11.1.1_rxjs@7.5.0
+      rxjs: 7.5.0
       tslib: 2.3.0
     dev: true
 
@@ -93,13 +93,13 @@ packages:
       tslib: 2.3.0
     dev: true
 
-  /@angular/core/11.1.1_rxjs@7.4.0:
+  /@angular/core/11.1.1_rxjs@7.5.0:
     resolution: {integrity: sha512-yBBLekXeDviZ+KW3DmGeOK0CK/yQ9gCy2uHY47KUDI4UTRRLz0NI5nS9NdKwk5bpCPId6ZPNsJtHPBFXRhAnNA==}
     peerDependencies:
       rxjs: ^6.5.3
       zone.js: ^0.10.2 || ^0.11.3
     dependencies:
-      rxjs: 7.4.0
+      rxjs: 7.5.0
       tslib: 2.1.0
     dev: true
 
@@ -3285,7 +3285,7 @@ packages:
       mute-stream: 0.0.8
       ora: 5.4.1
       run-async: 2.4.1
-      rxjs: 7.4.0
+      rxjs: 7.5.0
       string-width: 4.2.0
       strip-ansi: 6.0.0
       through: 2.3.8
@@ -5776,10 +5776,10 @@ packages:
       tslib: 1.14.1
     dev: true
 
-  /rxjs/7.4.0:
-    resolution: {integrity: sha512-7SQDi7xeTMCJpqViXh8gL/lebcwlp3d831F05+9B44A4B0WfsEwUQHR64gsH1kvJ+Ep/J9K2+n1hVl1CsGN23w==}
+  /rxjs/7.5.0:
+    resolution: {integrity: sha512-fuCKAfFawVYX0pyFlETtYnXI+5iiY9Dftgk+VdgeOq+Qyi9ZDWckHZRDaXRt5WCNbbLkmAheoSGDiceyCIKNZA==}
     dependencies:
-      tslib: 2.1.0
+      tslib: 2.3.0
     dev: true
 
   /safe-buffer/5.1.2:
