@@ -33,9 +33,9 @@
   },
   "homepage": "https://github.com/esm-bundle/angular__common#readme",
   "devDependencies": {
-    "@angular/common": "12.2.16",
-    "@angular/compiler": "12.2.16",
-    "@angular/compiler-cli": "12.2.16",
+    "@angular/common": "13.3.0",
+    "@angular/compiler": "13.3.0",
+    "@angular/compiler-cli": "13.3.0",
     "@angular/core": "^11.1.1",
     "concurrently": "7.0.0",
     "esm-bundle-scripts": "1.2.0",
