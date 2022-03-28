@@ -3,7 +3,21 @@
   "version": "12.2.16",
   "description": "Repo to test esm-bundle's automatic publishing",
   "exports": {
-    ".": "./es2015/ivy/angular-common.js"
+    ".": {
+      "es2015": "./es2015/ivy/angular-common.js",
+      "es2020": "./es2020/ivy/angular-common.js",
+      "default": "./es2020/ivy/angular-common.js"
+    },
+    "./http": {
+      "es2015": "./es2015/ivy/angular-http.mjs",
+      "es2020": "./es2020/ivy/angular-http.mjs",
+      "default": "./es2020/ivy/angular-http.mjs"
+    },
+    "./upgrade": {
+      "es2015": "./es2015/ivy/angular-upgrade.mjs",
+      "es2020": "./es2020/ivy/angular-upgrade.mjs",
+      "default": "./es2020/ivy/angular-upgrade.mjs"
+    }
   },
   "type": "module",
   "scripts": {
@@ -11,15 +25,16 @@
     "test:browser": "karma start karma.conf.cjs --single-run",
     "debug:test:browser": "karma start karma.conf.cjs",
     "test:formatting": "prettier --check .",
-    "build": "rimraf system es2015 && rollup -c",
+    "build": "rimraf system es2015 es2020 && rollup -c",
     "format": "prettier --write .",
     "release": "release-it",
     "prepublishOnly": "pnpm build && pinst --disable",
-    "postinstall": "ngcc --no-tsconfig --target @angular/common --properties es2015 --first-only",
+    "postinstall": "husky install",
     "postpublish": "pinst --enable"
   },
   "files": [
     "es2015",
+    "es2020",
     "system"
   ],
   "repository": {
@@ -33,10 +48,11 @@
   },
   "homepage": "https://github.com/esm-bundle/angular__common#readme",
   "devDependencies": {
-    "@angular/common": "12.2.16",
-    "@angular/compiler": "12.2.16",
-    "@angular/compiler-cli": "12.2.16",
-    "@angular/core": "^11.1.1",
+    "@angular/common": "13.3.0",
+    "@angular/compiler": "13.3.0",
+    "@angular/compiler-cli": "13.3.0",
+    "@angular/core": "13.3.0",
+    "@rollup/plugin-babel": "5.3.1",
     "concurrently": "7.0.0",
     "esm-bundle-scripts": "1.2.0",
     "husky": "7.0.4",

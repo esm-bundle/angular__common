@@ -10,7 +10,11 @@ A repo that tests automatic detection of upstream publishes and the publishing o
 
 Upstream repo at https://github.com/angular/angular.
 
-### Latest Version
+## Latest Version
+
+### @angular/common
+
+#### ES2015
 
 https://cdn.jsdelivr.net/npm/@esm-bundle/angular__common/system/es2015/ivy/angular-common.js
 
@@ -20,7 +24,61 @@ https://unpkg.com/@esm-bundle/angular__common/system/es2015/ivy/angular-common.j
 
 https://unpkg.com/@esm-bundle/angular__common/system/es2015/ivy/angular-common.min.js
 
-### Specific Version
+#### ES2020
+
+https://cdn.jsdelivr.net/npm/@esm-bundle/angular__common/system/es2020/ivy/angular-common.js
+
+https://cdn.jsdelivr.net/npm/@esm-bundle/angular__common/system/es2020/ivy/angular-common.min.js
+
+https://unpkg.com/@esm-bundle/angular__common/system/es2020/ivy/angular-common.js
+
+https://unpkg.com/@esm-bundle/angular__common/system/es2020/ivy/angular-common.min.js
+
+### @angular/common/http
+
+#### ES2015
+
+https://cdn.jsdelivr.net/npm/@esm-bundle/angular__common/system/es2015/ivy/angular-http.js
+
+https://cdn.jsdelivr.net/npm/@esm-bundle/angular__common/system/es2015/ivy/angular-http.min.js
+
+https://unpkg.com/@esm-bundle/angular__common/system/es2015/ivy/angular-http.js
+
+https://unpkg.com/@esm-bundle/angular__common/system/es2015/ivy/angular-http.min.js
+
+#### ES2020
+
+https://cdn.jsdelivr.net/npm/@esm-bundle/angular__common/system/es2020/ivy/angular-http.js
+
+https://cdn.jsdelivr.net/npm/@esm-bundle/angular__common/system/es2020/ivy/angular-http.min.js
+
+https://unpkg.com/@esm-bundle/angular__common/system/es2020/ivy/angular-http.js
+
+https://unpkg.com/@esm-bundle/angular__common/system/es2020/ivy/angular-http.min.js
+
+### @angular/common/upgrade
+
+#### ES2015
+
+https://cdn.jsdelivr.net/npm/@esm-bundle/angular__common/system/es2015/ivy/angular-upgrade.js
+
+https://cdn.jsdelivr.net/npm/@esm-bundle/angular__common/system/es2015/ivy/angular-upgrade.min.js
+
+https://unpkg.com/@esm-bundle/angular__common/system/es2015/ivy/angular-upgrade.js
+
+https://unpkg.com/@esm-bundle/angular__common/system/es2015/ivy/angular-upgrade.min.js
+
+#### ES2020
+
+https://cdn.jsdelivr.net/npm/@esm-bundle/angular__common/system/es2020/ivy/angular-upgrade.js
+
+https://cdn.jsdelivr.net/npm/@esm-bundle/angular__common/system/es2020/ivy/angular-upgrade.min.js
+
+https://unpkg.com/@esm-bundle/angular__common/system/es2020/ivy/angular-upgrade.js
+
+https://unpkg.com/@esm-bundle/angular__common/system/es2020/ivy/angular-upgrade.min.js
+
+## Specific Version
 
 https://cdn.jsdelivr.net/npm/@esm-bundle/angular__common@11.1.1/system/es2015/ivy/angular-common.js
 
