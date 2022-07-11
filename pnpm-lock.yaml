@@ -20,14 +20,14 @@ specifiers:
   rimraf: 3.0.2
   rollup: 2.76.0
   rollup-plugin-terser: 7.0.2
-  rxjs: 7.5.5
+  rxjs: 7.5.6
   typescript: 4.7.4
 
 devDependencies:
-  '@angular/common': 14.0.5_@angular+core@13.3.0+rxjs@7.5.5
+  '@angular/common': 14.0.5_@angular+core@13.3.0+rxjs@7.5.6
   '@angular/compiler': 14.0.5_@angular+core@13.3.0
   '@angular/compiler-cli': 14.0.5_cbc8534ffa51ed108809164dd1291da2
-  '@angular/core': 13.3.0_rxjs@7.5.5
+  '@angular/core': 13.3.0_rxjs@7.5.6
   '@rollup/plugin-babel': 5.3.1_rollup@2.76.0
   concurrently: 7.2.2
   esm-bundle-scripts: 1.2.0
@@ -43,7 +43,7 @@ devDependencies:
   rimraf: 3.0.2
   rollup: 2.76.0
   rollup-plugin-terser: 7.0.2_rollup@2.76.0
-  rxjs: 7.5.5
+  rxjs: 7.5.6
   typescript: 4.7.4
 
 packages:
@@ -55,15 +55,15 @@ packages:
       '@jridgewell/trace-mapping': 0.3.4
     dev: true
 
-  /@angular/common/14.0.5_@angular+core@13.3.0+rxjs@7.5.5:
+  /@angular/common/14.0.5_@angular+core@13.3.0+rxjs@7.5.6:
     resolution: {integrity: sha512-YFRPxx3yRLjk0gPL7tm/97mi8+Pjt3q6zWCjrLkAlDjniDvgmKNWIQ1h6crZQR0Cw7yNqK0QoFXQgTw0GJIWLQ==}
     engines: {node: ^14.15.0 || >=16.10.0}
     peerDependencies:
       '@angular/core': 14.0.5
       rxjs: ^6.5.3 || ^7.4.0
     dependencies:
-      '@angular/core': 13.3.0_rxjs@7.5.5
-      rxjs: 7.5.5
+      '@angular/core': 13.3.0_rxjs@7.5.6
+      rxjs: 7.5.6
       tslib: 2.3.0
     dev: true
 
@@ -100,18 +100,18 @@ packages:
       '@angular/core':
         optional: true
     dependencies:
-      '@angular/core': 13.3.0_rxjs@7.5.5
+      '@angular/core': 13.3.0_rxjs@7.5.6
       tslib: 2.3.0
     dev: true
 
-  /@angular/core/13.3.0_rxjs@7.5.5:
+  /@angular/core/13.3.0_rxjs@7.5.6:
     resolution: {integrity: sha512-ZnuIMEK8YFBtthNqrxapYolMp6qRy4Yp/VG+M11YNiuBp/BoYYDjTaknwO8vu36Cn6372zWjcibsknkZMjdBkg==}
     engines: {node: ^12.20.0 || ^14.15.0 || >=16.10.0}
     peerDependencies:
       rxjs: ^6.5.3 || ^7.4.0
       zone.js: ~0.11.4
     dependencies:
-      rxjs: 7.5.5
+      rxjs: 7.5.6
       tslib: 2.3.0
     dev: true
 
@@ -1969,7 +1969,7 @@ packages:
       chalk: 4.1.2
       date-fns: 2.16.1
       lodash: 4.17.21
-      rxjs: 7.5.5
+      rxjs: 7.5.6
       shell-quote: 1.7.3
       spawn-command: 0.0.2-1
       supports-color: 8.1.1
@@ -3750,7 +3750,7 @@ packages:
       mute-stream: 0.0.8
       ora: 6.1.2
       run-async: 2.4.1
-      rxjs: 7.5.5
+      rxjs: 7.5.6
       string-width: 5.1.2
       strip-ansi: 7.0.1
       through: 2.3.8
@@ -6569,8 +6569,8 @@ packages:
       tslib: 1.14.1
     dev: true
 
-  /rxjs/7.5.5:
-    resolution: {integrity: sha512-sy+H0pQofO95VDmFLzyaw9xNJU4KTRSwQIGM6+iG3SypAtCiLDzpeG8sJrNCWn2Up9km+KhkvTdbkrdy+yzZdw==}
+  /rxjs/7.5.6:
+    resolution: {integrity: sha512-dnyv2/YsXhnm461G+R/Pe5bWP41Nm6LBXEYWI6eiFP4fiwx6WRI/CD0zbdVAudd9xwLEF2IDcKXLHit0FYjUzw==}
     dependencies:
       tslib: 2.3.0
     dev: true
