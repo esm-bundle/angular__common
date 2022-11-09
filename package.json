@@ -48,9 +48,9 @@
   },
   "homepage": "https://github.com/esm-bundle/angular__common#readme",
   "devDependencies": {
-    "@angular/common": "14.2.9",
-    "@angular/compiler": "14.2.9",
-    "@angular/compiler-cli": "14.2.9",
+    "@angular/common": "14.2.10",
+    "@angular/compiler": "14.2.10",
+    "@angular/compiler-cli": "14.2.10",
     "@angular/core": "13.3.0",
     "@rollup/plugin-babel": "6.0.2",
     "concurrently": "7.5.0",
