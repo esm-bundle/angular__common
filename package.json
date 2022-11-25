@@ -52,7 +52,7 @@
     "@angular/compiler": "15.0.1",
     "@angular/compiler-cli": "15.0.1",
     "@angular/core": "13.3.0",
-    "@rollup/plugin-babel": "6.0.2",
+    "@rollup/plugin-babel": "6.0.3",
     "concurrently": "7.6.0",
     "esm-bundle-scripts": "1.2.0",
     "husky": "8.0.2",
