@@ -50,7 +50,7 @@
     "@angular/compiler-cli": "16.0.3",
     "@angular/core": "13.3.0",
     "@rollup/plugin-babel": "6.0.3",
-    "concurrently": "8.0.1",
+    "concurrently": "8.1.0",
     "esm-bundle-scripts": "1.2.0",
     "husky": "8.0.3",
     "karma": "6.4.2",
