@@ -14,10 +14,10 @@ jobs:
       - uses: actions/checkout@v3
       - uses: actions/setup-node@v3
         with:
-          node-version: "15"
+          node-version: 16
       - uses: pnpm/action-setup@v2.2.4
         with:
-          version: 5.17.3
+          version: 6.0.2
       - run: pnpm install --frozen-lockfile
       - run: pnpm test
   publish:
@@ -40,10 +40,10 @@ jobs:
           token: ${{ secrets.PUBLISH_BOT }}
       - uses: actions/setup-node@v3
         with:
-          node-version: "15"
+          node-version: 16
       - uses: pnpm/action-setup@v2.2.4
         with:
-          version: 5.17.3
+          version: 6.0.2
       - run: pnpm install --frozen-lockfile
       - name: Setup auth
         run: |
