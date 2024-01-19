@@ -2,7 +2,7 @@ import fs from "fs";
 import url from "url";
 import path from "path";
 import { babel } from "@rollup/plugin-babel";
-import { terser } from "rollup-plugin-terser";
+import terser from "@rollup/plugin-terser";
 import { createEs2015LinkerPlugin } from "@angular/compiler-cli/linker/babel";
 import {
   ConsoleLogger,
@@ -14,9 +14,9 @@ const __dirname = new url.URL(".", import.meta.url).pathname;
 const packageJson = JSON.parse(
   fs
     .readFileSync(
-      path.resolve(__dirname, "node_modules/@angular/common/package.json")
+      path.resolve(__dirname, "node_modules/@angular/common/package.json"),
     )
-    .toString()
+    .toString(),
 );
 
 /** File system used by the Angular linker plugin. */
@@ -68,7 +68,7 @@ function createConfig({ ecma, prod, format, angularPackage, filename }) {
   return {
     input: path.join(
       __dirname,
-      `node_modules/@angular/common/fesm${ecma}/${filename}.mjs`
+      `node_modules/@angular/common/fesm${ecma}/${filename}.mjs`,
     ),
     output: {
       file: `${dir}/angular-${filename}.${prod ? "min." : ""}js`,
@@ -97,9 +97,8 @@ function createConfig({ ecma, prod, format, angularPackage, filename }) {
       "rxjs",
       "rxjs/operators",
       "@angular/core",
-      "@angular/router",
-      "@angular/platform-browser",
-      "@angular/upgrade",
+      "@angular/common",
+      "@angular/upgrade/static",
     ],
   };
 }
