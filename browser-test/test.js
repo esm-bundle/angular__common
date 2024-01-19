@@ -2,14 +2,14 @@ describe("@esm-bundle/angular-common", () => {
   describe("@angular/common", () => {
     it("can load the System.register es2022 bundle", async () => {
       const m = await System.import(
-        "/base/system/es2022/ivy/angular-common.js"
+        "/base/system/es2022/ivy/angular-common.js",
       );
       expect(m.Location).toBeDefined();
     });
 
     it("can load the System.register es2022 prod bundle", async () => {
       const m = await System.import(
-        "/base/system/es2022/ivy/angular-common.min.js"
+        "/base/system/es2022/ivy/angular-common.min.js",
       );
       expect(m.Location).toBeDefined();
     });
@@ -23,7 +23,7 @@ describe("@esm-bundle/angular-common", () => {
 
     it("can load the System.register es2022 prod bundle", async () => {
       const m = await System.import(
-        "/base/system/es2022/ivy/angular-http.min.js"
+        "/base/system/es2022/ivy/angular-http.min.js",
       );
       expect(m.HttpClient).toBeDefined();
     });
