@@ -7,8 +7,9 @@ document.head.appendChild(
           "rxjs": "https://cdn.jsdelivr.net/npm/@esm-bundle/rxjs/system/es2015/rxjs.min.js",
           "rxjs/operators": "https://cdn.jsdelivr.net/npm/@esm-bundle/rxjs/system/es2015/rxjs-operators.min.js",
           "@angular/core": "https://cdn.jsdelivr.net/npm/@esm-bundle/angular__core/system/es2022/ivy/angular-core.js",
+          "@angular/core/primitives/signals": "https://cdn.jsdelivr.net/npm/@esm-bundle/angular__core/system/es2022/ivy/angular-signals.js",
           "@angular/common": "/base/system/es2022/ivy/angular-common.min.js"
         }
       }`,
-  })
+  }),
 );

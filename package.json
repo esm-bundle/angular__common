@@ -1,6 +1,6 @@
 {
   "name": "@esm-bundle/angular__common",
-  "version": "16.0.5",
+  "version": "17.3.4",
   "description": "Repo to test esm-bundle's automatic publishing",
   "exports": {
     ".": {
@@ -45,11 +45,12 @@
   },
   "homepage": "https://github.com/esm-bundle/angular__common#readme",
   "devDependencies": {
-    "@angular/common": "16.0.5",
-    "@angular/compiler": "16.0.5",
-    "@angular/compiler-cli": "16.0.5",
-    "@angular/core": "13.3.0",
+    "@angular/common": "17.3.4",
+    "@angular/compiler": "17.3.4",
+    "@angular/compiler-cli": "17.3.4",
+    "@angular/core": "17.3.4",
     "@rollup/plugin-babel": "6.0.4",
+    "@rollup/plugin-terser": "0.4.4",
     "concurrently": "8.2.2",
     "esm-bundle-scripts": "1.2.0",
     "husky": "9.1.1",
