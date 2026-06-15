@@ -5,7 +5,7 @@ overrides:
 
 specifiers:
   '@angular/common': 19.1.7
-  '@angular/compiler': 19.1.7
+  '@angular/compiler': 19.2.22
   '@angular/compiler-cli': 19.1.7
   '@angular/core': 13.3.0
   '@rollup/plugin-babel': 6.0.4
@@ -28,8 +28,8 @@ specifiers:
 
 devDependencies:
   '@angular/common': 19.1.7_hmaenfxrzfzftkht2jitfm3igq
-  '@angular/compiler': 19.1.7_@angular+core@13.3.0
-  '@angular/compiler-cli': 19.1.7_txriroh6tkevr66bmierpycy6a
+  '@angular/compiler': 19.2.22
+  '@angular/compiler-cli': 19.1.7_7ahhpa624s4mlojcb3znp2mm2i
   '@angular/core': 13.3.0_rxjs@7.8.2
   '@rollup/plugin-babel': 6.0.4_rollup@4.46.2
   concurrently: 9.2.0
@@ -71,7 +71,7 @@ packages:
       tslib: 2.6.2
     dev: true
 
-  /@angular/compiler-cli/19.1.7_txriroh6tkevr66bmierpycy6a:
+  /@angular/compiler-cli/19.1.7_7ahhpa624s4mlojcb3znp2mm2i:
     resolution: {integrity: sha512-Uu/TxfIcE1lStlCLmOPbghG1Y5o83odES89sr7bYNJz2mcG7TEonatf6GTOMzbJNil9FBJt6qnJkDkSjn4nUKw==}
     engines: {node: ^18.19.1 || ^20.11.1 || >=22.0.0}
     hasBin: true
@@ -79,7 +79,7 @@ packages:
       '@angular/compiler': 19.1.7
       typescript: '>=5.5 <5.8'
     dependencies:
-      '@angular/compiler': 19.1.7_@angular+core@13.3.0
+      '@angular/compiler': 19.2.22
       '@babel/core': 7.26.0
       '@jridgewell/sourcemap-codec': 1.4.14
       chokidar: 4.0.3
@@ -93,17 +93,11 @@ packages:
       - supports-color
     dev: true
 
-  /@angular/compiler/19.1.7_@angular+core@13.3.0:
-    resolution: {integrity: sha512-Q3eqqIhMEzrnmFJtUO0K+WPpCfP/JTl9lJXZKe0zgNPdRFUufjSUcPHGzd7OjN2gPpiAvS1yBvENvqs+g/MejQ==}
+  /@angular/compiler/19.2.22:
+    resolution: {integrity: sha512-NO3q39TMq88MRyBM9E/cSn4KFEItPrp79izX3nRkWlGQ0D9nJPdzm2cHtZoB9dCZ3N6EOazTgBK+2jKylQrUFQ==}
     engines: {node: ^18.19.1 || ^20.11.1 || >=22.0.0}
-    peerDependencies:
-      '@angular/core': 19.1.7
-    peerDependenciesMeta:
-      '@angular/core':
-        optional: true
     dependencies:
-      '@angular/core': 13.3.0_rxjs@7.8.2
-      tslib: 2.6.2
+      tslib: 2.8.1
     dev: true
 
   /@angular/core/13.3.0_rxjs@7.8.2:
