@@ -4,7 +4,7 @@ overrides:
   terser: 5.43.1
 
 specifiers:
-  '@angular/common': 19.1.7
+  '@angular/common': 19.2.23
   '@angular/compiler': 19.1.7
   '@angular/compiler-cli': 19.1.7
   '@angular/core': 13.3.0
@@ -27,7 +27,7 @@ specifiers:
   typescript: 5.9.2
 
 devDependencies:
-  '@angular/common': 19.1.7_hmaenfxrzfzftkht2jitfm3igq
+  '@angular/common': 19.2.23_hmaenfxrzfzftkht2jitfm3igq
   '@angular/compiler': 19.1.7_@angular+core@13.3.0
   '@angular/compiler-cli': 19.1.7_txriroh6tkevr66bmierpycy6a
   '@angular/core': 13.3.0_rxjs@7.8.2
@@ -59,16 +59,16 @@ packages:
       '@jridgewell/trace-mapping': 0.3.17
     dev: true
 
-  /@angular/common/19.1.7_hmaenfxrzfzftkht2jitfm3igq:
-    resolution: {integrity: sha512-MXfUGfWeesTQ12HXgeoVIXsS+r1jZxT2FkLQtqS+NRsRD4T1vlyvD7kTI+Ku1NAjdt3mB8TJ0cZHubvmml8I+Q==}
+  /@angular/common/19.2.23_hmaenfxrzfzftkht2jitfm3igq:
+    resolution: {integrity: sha512-aB5yqu48POFj9tzF258Iye29iopIpxZZ58tzapXD1JDZBAr/hq4V0MtUu9HeUJ386GbRAZQQC2Am8Mjce0B1Lg==}
     engines: {node: ^18.19.1 || ^20.11.1 || >=22.0.0}
     peerDependencies:
-      '@angular/core': 19.1.7
+      '@angular/core': 19.2.23
       rxjs: ^6.5.3 || ^7.4.0
     dependencies:
       '@angular/core': 13.3.0_rxjs@7.8.2
       rxjs: 7.8.2
-      tslib: 2.6.2
+      tslib: 2.8.1
     dev: true
 
   /@angular/compiler-cli/19.1.7_txriroh6tkevr66bmierpycy6a:

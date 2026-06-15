@@ -45,7 +45,7 @@
   },
   "homepage": "https://github.com/esm-bundle/angular__common#readme",
   "devDependencies": {
-    "@angular/common": "19.1.7",
+    "@angular/common": "19.2.23",
     "@angular/compiler": "19.1.7",
     "@angular/compiler-cli": "19.1.7",
     "@angular/core": "13.3.0",
