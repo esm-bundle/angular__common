@@ -9,7 +9,7 @@ specifiers:
   '@angular/compiler-cli': 19.1.7
   '@angular/core': 13.3.0
   '@rollup/plugin-babel': 6.0.4
-  concurrently: 9.2.0
+  concurrently: 9.2.5
   esm-bundle-scripts: 1.2.0
   husky: 9.1.7
   karma: 6.4.4
@@ -32,7 +32,7 @@ devDependencies:
   '@angular/compiler-cli': 19.1.7_txriroh6tkevr66bmierpycy6a
   '@angular/core': 13.3.0_rxjs@7.8.2
   '@rollup/plugin-babel': 6.0.4_rollup@4.46.2
-  concurrently: 9.2.0
+  concurrently: 9.2.5
   esm-bundle-scripts: 1.2.0
   husky: 9.1.7
   karma: 6.4.4
@@ -2743,15 +2743,14 @@ packages:
       yargs: 13.3.2
     dev: true
 
-  /concurrently/9.2.0:
-    resolution: {integrity: sha512-IsB/fiXTupmagMW4MNp2lx2cdSN2FfZq78vF90LBB+zZHArbIQZjQtzXCiXnvTxCZSvXanTqFLWBjw2UkLx1SQ==}
+  /concurrently/9.2.5:
+    resolution: {integrity: sha512-YMZlvWrTPQEhjKp60XSmMGt60+pffbv6DyRnOMvVO98+J7aF8w8Ui9FhdcOwvSixc/kyR6SoVvmejcn/2lZBqg==}
     engines: {node: '>=18'}
     hasBin: true
     dependencies:
       chalk: 4.1.2
-      lodash: 4.17.21
       rxjs: 7.8.2
-      shell-quote: 1.8.1
+      shell-quote: 1.12.0
       supports-color: 8.1.1
       tree-kill: 1.2.2
       yargs: 17.7.2
@@ -3425,11 +3424,6 @@ packages:
       is-callable: 1.2.7
       is-date-object: 1.0.2
       is-symbol: 1.0.3
-    dev: true
-
-  /escalade/3.1.1:
-    resolution: {integrity: sha512-k0er2gUkLf8O0zKJiAhmkTnJlTvINGv7ygDNPbeIsX/TJjGJZHuh9B2UxbsaEkmlEo9MfhrSzmhIlhRlI2GXnw==}
-    engines: {node: '>=6'}
     dev: true
 
   /escalade/3.2.0:
@@ -7758,8 +7752,9 @@ packages:
     engines: {node: '>=8'}
     dev: true
 
-  /shell-quote/1.8.1:
-    resolution: {integrity: sha512-6j1W9l1iAs/4xYBI1SYOVZyFcCis9b4KCLQ8fgAGG07QvzaRLVVRQvAy85yNmmZSjYjg4MWh4gNvlPujU/5LpA==}
+  /shell-quote/1.12.0:
+    resolution: {integrity: sha512-PcByqNyT/38F2kDNi006HAMRJaULuBzq/FOsw3qdZvX/GA9W/jamDaRskgHjubHiftXK5sIFxLNkvrXUwcof6Q==}
+    engines: {node: '>= 0.4'}
     dev: true
 
   /shelljs/0.8.4:
@@ -8629,7 +8624,7 @@ packages:
       browserslist: '>= 4.21.0'
     dependencies:
       browserslist: 4.21.4
-      escalade: 3.1.1
+      escalade: 3.2.0
       picocolors: 1.1.1
     dev: true
 
@@ -9101,7 +9096,7 @@ packages:
     engines: {node: '>=10'}
     dependencies:
       cliui: 7.0.4
-      escalade: 3.1.1
+      escalade: 3.2.0
       get-caller-file: 2.0.5
       require-directory: 2.1.1
       string-width: 4.2.3
@@ -9114,7 +9109,7 @@ packages:
     engines: {node: '>=12'}
     dependencies:
       cliui: 8.0.1
-      escalade: 3.1.1
+      escalade: 3.2.0
       get-caller-file: 2.0.5
       require-directory: 2.1.1
       string-width: 4.2.3
